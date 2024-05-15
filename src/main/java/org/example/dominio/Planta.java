@@ -19,7 +19,7 @@ public abstract class Planta {
         return tipo;
     }
     public void morir(){
-        this.estado = "Morir";
+        this.estado = "Muerta";
     }
     private static void aumentarContador(){
         contador++;
