@@ -18,7 +18,7 @@ public class Inventario {
     }
     public void mostrarTodosDatosPlantas(){
         for(Planta p : plantas){
-            System.out.println(p.toString());
+            mostrarDatosPlanta(p);
         }
     }
     public void insertarPlanta(Planta p){
